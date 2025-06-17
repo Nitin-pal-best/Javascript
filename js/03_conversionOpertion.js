@@ -38,3 +38,4 @@ console.log(typeof (strNumber))
 // let strNumber = parseFloat(sumNumber)
 // console.log(strNumber)
 // console.log(typeof (strNumber))
+
