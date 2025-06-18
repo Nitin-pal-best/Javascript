@@ -8,7 +8,7 @@
 // symbol
 // bigInt
 
-/*
+
 const str = "Nitin"
 console.log(str);
 
@@ -30,7 +30,7 @@ const valueAble = id === anotherId
 
 console.log(valueAble)
 
-*/
+
 
 // Reference (No Primitive DataType)
 // Object
@@ -47,4 +47,9 @@ const obj ={
     "age" : 21,
     "salary" : 1200000,
 }
-// console.log(obj)
+console.log(obj)
+
+const myFunction = function(){
+    console.log("Hello Nitin");
+};
+myFunction()
