@@ -39,3 +39,8 @@ console.log(typeof (strNumber))
 // console.log(strNumber)
 // console.log(typeof (strNumber))
 
+// ****************************Operaton ****************************
+
+let value = 5
+let negtaiveValue = -value
+console.log(negtaiveValue);
