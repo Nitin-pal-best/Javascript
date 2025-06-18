@@ -43,13 +43,41 @@ console.log(list)
 
 // Object
 const obj ={
-    "name" : "Nitin",
-    "age" : 21,
-    "salary" : 1200000,
+    name : "Nitin",
+    age : 21,
+    salary : 1200000,
 }
 console.log(obj)
 
 const myFunction = function(){
     console.log("Hello Nitin");
 };
-myFunction()
+myFunction();
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory and Heap memory
+
+let myYoutuber = "Nitin"
+
+let anotherPeople = myYoutuber
+
+anotherPeople = "Khushi"
+
+console.log(myYoutuber)
+console.log(anotherPeople)
+
+let person ={
+    email : "nitin.pal443054@gamil.com",
+    upi : "nitin@ybl",
+}
+
+let twoPerson = person
+
+twoPerson.email = "paln44004@gmail.com"
+
+console.log(person.email)
+console.log(twoPerson.email)
