@@ -74,3 +74,37 @@ let chacter = chart.charAt(4)
 console.log(chacter);
 */
 
+const gameChangers = "Nitin";
+console.log(gameChangers.charAt(3));
+console.log(gameChangers.endsWith("n"));
+console.log(gameChangers.startsWith("N"));
+console.log(gameChangers.includes('n'));
+console.log(gameChangers.indexOf("i"));
+console.log(gameChangers.toUpperCase());
+console.log(gameChangers.toLowerCase());
+console.log(gameChangers.length);
+console.log(gameChangers.split());  // String to change array
+console.log(gameChangers.split().join()) ; //array to change string
+console.log(gameChangers.slice(1, 4));
+console.log(gameChangers.replace("i", 'k'));
+console.log(gameChangers.replaceAll("i", 'k'));
+console.log(gameChangers.trim());
+
+console.log(gameChangers.split("")) // ['N','i','t','i','n']
+
+
+
+
+/*
+| Category | Methods                                                             |
+| -------- | ------------------------------------------------------------------- |
+| Basic    | `length`, `charAt()`, `indexOf()`, `toUpperCase()`, `toLowerCase()` |
+| Search   | `includes()`, `startsWith()`, `endsWith()`, `match()`, `search()`   |
+| Extract  | `slice()`, `substring()`, `substr()`                                |
+| Replace  | `replace()`, `replaceAll()`                                         |
+| Modify   | `trim()`, `repeat()`, `padStart()`, `padEnd()`                      |
+| Convert  | `split()`, `join()`                                                 |
+| Compare  | `localeCompare()`                                                   |
+| Extra    | Template Literals `` `${}` ``                                       |
+
+*/
