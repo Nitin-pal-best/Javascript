@@ -42,3 +42,31 @@ frut.includes("Orange")
 console.log(frut.indexOf('Banana'))
 console.log(frut)
 
+
+const hero = [1,2,3,4,5,6]
+
+hero.splice(1,3,101,102,103)
+console.log(hero)
+
+let aother = [1,2,3,4]
+let aother2 = [5,6,7,8]
+
+// let add = aother.concat(aother2)
+
+let speard = [...aother, ...aother2]
+console.log(speard)
+
+const another_array = [1,2,3,[4,5,6],7,[8,9,10,[11,12,13,14,[15,16,17,18]]]]
+const real_another_array = another_array.flat(Infinity)
+
+console.log(real_another_array)
+
+// +++++++++++++++++++++++++++++++++++++ method (from)++++++++++++++++++++++++++++++++++++++++++++++
+console.log(Array.isArray("Nitin"));
+console.log(Array.from("Nitin"))
+
+let socre1 = 100
+let socre2 =200
+let socre3 =300
+
+console.log(Array.of(socre1,socre2,socre3))
