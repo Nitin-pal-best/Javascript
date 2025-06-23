@@ -1,4 +1,6 @@
 
+// Object leterals
+
 const mysym = Symbol("key1")
 const user ={
     name : "Nitin",
