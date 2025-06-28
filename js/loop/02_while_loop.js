@@ -13,6 +13,8 @@ while (index < myarr.length) {
 
 
 
+
+
 do {
     
 } while (condition);
