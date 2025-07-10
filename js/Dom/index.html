@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus aliquam consequatur error libero repellat,
+        impedit, neque, tempora non nesciunt dignissimos possimus!</p> -->
+    <input type="text" placeholder="Enter your name">
+</body>
+
+<script>
+
+    // element.addEventListener("eventName" function () {})
+    const title = document.querySelector("p");
+
+    // function changeStyle() {
+    //     title.style.backgroundColor = "red";
+    //     title.style.color = "yellow";
+    //     title.removeEventListener("click", changeStyle);
+    // }
+    // title.addEventListener("click", changeStyle);
+    // title.addEventListener("dblclick", function () {
+    //     title.style.color = "red"
+    // })
+    const inp = document.querySelector("input")
+
+    inp.addEventListener("input", function (dets) {
+        if (dets.data != null) {
+            console.log(dets.data)
+        }
+    })
+
+</script>
+
+
+</html>
