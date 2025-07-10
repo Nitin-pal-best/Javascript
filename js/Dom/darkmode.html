@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .dark {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .light1 {
+        background-color: #fff;
+        color: #000;
+    }
+</style>
+
+<body>
+    <button id="btn">Dark Mode</button>
+    <p>welcome to our website</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui fugiat ut numquam praesentium libero aspernatur
+    maiores! Molestiae ducimus asperiores provident deserunt, molestias nisi sit eos, porro libero suscipit obcaecati
+    error maxime numquam omnis modi cum ullam at earum dicta sint sapiente inventore. Quam similique id aperiam
+    consequatur consequuntur, magni repellat animi ad? Voluptates excepturi esse maiores neque ipsa, eaque sapiente
+    omnis. Ab sequi fugit ratione vel sint modi aperiam corrupti aliquid veniam autem magnam qui eveniet architecto
+    voluptate laboriosam rem minus incidunt, odit mollitia aspernatur, sapiente dolorem distinctio recusandae. Quos
+    facere enim optio provident fugiat. Iste veritatis saepe ea.
+</body>
+
+<script>
+    const mode = document.querySelector('#btn');
+    let body = document.querySelector("body");
+    let lightMode = "light";
+
+    mode.addEventListener("click", () => {
+        if (lightMode === "light") {
+            lightMode = "dark";
+            body.classList.add("dark")
+            body.classList.remove("light1")
+
+        } else {
+            lightMode = "light"
+            body.classList.add("light1")
+            body.classList.remove("dark")
+        }
+        console.log(lightMode)
+    });
+</script>
+
+</html>
